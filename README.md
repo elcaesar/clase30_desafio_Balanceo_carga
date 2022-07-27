@@ -58,10 +58,6 @@ El resto de las consultas, redirigirlas a un servidor individual escuchando en e
 Verificar que todo funcione correctamente.
 Luego, modificar la configuración para que todas las consultas a /api/randoms sean redirigidas a un cluster de servidores gestionado desde nginx, repartiéndolas equitativamente entre 4 instancias escuchando en los puertos 8082, 8083, 8084 y 8085 respectivamente.
 
-![image](https://user-images.githubusercontent.com/2990090/181390389-77d1f77d-748c-4ed7-98d6-8d96324a6856.png)
-
-
-
 #### Configuración del archivo de configuración de NGNIX
 
 ``` 

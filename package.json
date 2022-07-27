@@ -1,0 +1,20 @@
+{
+  "name": "clase28_desafio_process",
+  "version": "1.0.0",
+  "description": "Ejecutar \"npm install\" para instalar las dependecias.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mongo-connect": "^0.0.6",
+    "mongoose": "^6.4.6",
+    "yargs": "^17.5.1"
+  }
+}

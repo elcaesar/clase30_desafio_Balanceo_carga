@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col">
+    <div class="card text-bg-light mb-3">
+      <div class="card-header">Información</div>
+      <div class="card-body">
+          <p><b>Argumentos de entrada:</b> {{#if arguments}} {{arguments}} {{^}} Sin argumentos {{/if}}</p>
+          <p><b>Plataforma:</b> {{platform}}</p>
+          <p><b>Versión de Node:</b> {{nodeVersion}}</p>
+          <p><b>Memoria total reservada:</b> {{systemMemory}}</p>
+          <p><b>Path de ejecución:</b> {{pathRun}}</p>
+          <p><b>Process id:</b> {{pid}}</p>
+          <p><b>Carpeta del proyecto:</b> {{projectPath}}</p>
+          <p><b>Número de CPUs:</b> {{numCPU}}</p>
+
+      </div>
+      <div class="card-footer">
+        <a href="/" class="btn btn-primary">Home</a>
+      </div>
+    </div>
+  </div>
+</div>
+

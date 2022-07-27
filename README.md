@@ -1,4 +1,4 @@
-## Desafío: clase 30: Servidor con balance de carga
+## Desafío: clase 30: Servidor con balanceo de carga
 #### Como ejecutar el programa en su computadora:
 
 Ejecutar "npm install" para instalar las dependecias.
